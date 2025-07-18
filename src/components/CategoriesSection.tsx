@@ -4,26 +4,26 @@ const CategoriesSection = () => {
   return (
     <div className="max-w-screen-2xl px-5 mx-auto mt-24">
       <h2 className="text-black text-5xl font-normal tracking-[1.56px] max-sm:text-4xl mb-12">
-        Our Categories
+        Kategorilerimiz
       </h2>
       <div className="flex justify-between flex-wrap gap-y-10">
         <CategoryItem
-          categoryTitle="Special Edition"
+          categoryTitle="Özel Baskı"
           image="luxury category 1.png"
           link="special-edition"
         />
         <CategoryItem
-          categoryTitle="Luxury Collection"
+          categoryTitle="Lüks Koleksiyon"
           image="luxury category 2.png"
           link="luxury-collection"
         />
         <CategoryItem
-          categoryTitle="Summer Edition"
+          categoryTitle="Yaz Sürümü"
           image="luxury category 3.png"
           link="summer-edition"
         />
         <CategoryItem
-          categoryTitle="Unique Collection"
+          categoryTitle="Benzersiz Koleksiyon"
           image="luxury category 4.png"
           link="unique-collection"
         />

@@ -20,10 +20,7 @@ const ProductItem = ({
   category: string;
   price: number;
 }) => {
-
-  console.log("image",image);
-  
-
+ 
   return (
     <div className="w-[400px] flex flex-col gap-2 justify-center max-md:w-[300px]">
       <Link
@@ -49,13 +46,13 @@ const ProductItem = ({
           to={`/product/${id}`}
           className="text-white bg-secondaryBrown text-center text-xl font-normal tracking-[0.6px] leading-[72px] w-full h-12 flex items-center justify-center max-md:text-base"
         >
-          View product
+          Ürünü görüntüle
         </Link>
         <Link
           to={`/product/${id}`}
           className="bg-white text-black text-center text-xl border border-[rgba(0, 0, 0, 0.40)] font-normal tracking-[0.6px] leading-[72px] w-full h-12 flex items-center justify-center max-md:text-base"
         >
-          Learn more
+          Daha fazla bilgi edin
         </Link>
       </div>
     </div>

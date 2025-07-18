@@ -54,7 +54,7 @@ const SidebarMenu = ({
               to="/"
               className="text-4xl font-light tracking-[1.08px] max-sm:text-3xl max-[400px]:text-2xl"
             >
-              FASHION
+              MENU
             </Link>
           </div>
           <div className="flex flex-col items-center gap-1 mt-7">
@@ -62,19 +62,19 @@ const SidebarMenu = ({
               to="/"
               className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
             >
-              Home
+              Ana sayfa
             </Link>
             <Link
               to="/shop"
               className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
             >
-              Shop
+              Mağaza
             </Link>
             <Link
               to="/search"
               className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
             >
-              Search
+              Arama
             </Link>
             {loginStatus ? (
               <>
@@ -82,7 +82,7 @@ const SidebarMenu = ({
                   onClick={logout}
                   className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
                 >
-                  Logout
+                  Çıkış
                 </button>
               </>
             ) : (
@@ -91,13 +91,13 @@ const SidebarMenu = ({
                   to="/login"
                   className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
                 >
-                  Sign in
+                  Giriş yap
                 </Link>
                 <Link
                   to="/register"
                   className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
                 >
-                  Sign up
+                  Kayıt ol
                 </Link>
               </>
             )}
@@ -105,7 +105,7 @@ const SidebarMenu = ({
               to="/cart"
               className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
             >
-              Cart
+              Sepet
             </Link>
           </div>
         </div>
