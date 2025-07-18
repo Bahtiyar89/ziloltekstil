@@ -1,5 +1,5 @@
 import SocialMediaFooter from "./SocialMediaFooter";
-import { HiChevronDown } from "react-icons/hi2";
+//import { HiChevronDown } from "react-icons/hi2";
 
 
 const Footer = () => {

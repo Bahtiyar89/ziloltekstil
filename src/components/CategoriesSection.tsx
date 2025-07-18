@@ -1,4 +1,8 @@
 import CategoryItem from "./CategoryItem";
+import luxury1 from '../assets/luxurycategory1.png'; 
+import luxury2 from '../assets/luxurycategory2.png'; 
+import luxury3 from '../assets/luxurycategory3.png';
+import luxury4 from '../assets/luxurycategory4.png';
 
 const CategoriesSection = () => {
   return (
@@ -9,22 +13,22 @@ const CategoriesSection = () => {
       <div className="flex justify-between flex-wrap gap-y-10">
         <CategoryItem
           categoryTitle="Özel Baskı"
-          image="luxury category 1.png"
+          image={luxury1}
           link="special-edition"
         />
         <CategoryItem
           categoryTitle="Lüks Koleksiyon"
-          image="luxury category 2.png"
+          image={luxury2}
           link="luxury-collection"
         />
         <CategoryItem
           categoryTitle="Yaz Sürümü"
-          image="luxury category 3.png"
+          image={luxury3}
           link="summer-edition"
         />
         <CategoryItem
           categoryTitle="Benzersiz Koleksiyon"
-          image="luxury category 4.png"
+          image={luxury4}
           link="unique-collection"
         />
       </div>
